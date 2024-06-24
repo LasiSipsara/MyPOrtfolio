@@ -1,0 +1,55 @@
+[
+    {
+     "title":"HTML",
+     "imgPath":"Skills/html-5.png"
+    },
+    {
+        "title":"CSS",
+        "imgPath":"Skills/css.png"
+    },
+    {
+     "title":"JavaScript",
+     "imgPath":"Skills/java-script.png"
+    },
+    {
+        "title":"C",
+        "imgPath":"/Skills/letter-c.png"
+    },
+    {
+        "title":"Java",
+        "imgPath":"/Skills/java.png"
+    },
+    {
+        "title":"Spring Boot",
+        "imgPath":"/Skills/spring boot.png"
+    },
+
+    {
+        "title":"SQL",
+        "imgPath":"/Skills/sql-server.png"
+    },
+    {
+        "title":"React JS",
+        "imgPath":"Skills/react.png"
+    },
+    {
+        "title":"MySQL",
+        "imgPath":"/Skills/mysql.png"
+    },
+    {
+        "title":"Github",
+        "imgPath":"Skills/github.png"
+    },
+    {
+        "title":"Figma",
+        "imgPath":"Skills/figma.png"
+    },
+    {
+        "title":"Wordpress",
+        "imgPath":"Skills/wordpress.png"
+    }
+
+
+   
+
+]

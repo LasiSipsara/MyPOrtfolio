@@ -1,0 +1,135 @@
+.hero-page {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  /* gap: 5%; */
+}
+.img-section {
+  float: left;
+  width: 40%;
+}
+
+.blob {
+  width: 350px;
+  height: 380px;
+  border-radius: 10px;
+  margin-top: 130px;
+  margin-left: 230px;
+  background-image: url("../../assets/profilePic.jpeg");
+  background-size: cover;
+  box-shadow: 0 5px 5px 5px;
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    /* border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; */
+    transform: scale(0.9);
+  }
+
+  50% {
+    /* border-radius: 30% 60% 70% 40%/50% 60% 30% 60%; */
+    transform: scale(1.1);
+  }
+}
+
+.hero-description {
+  width: 50%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  padding-top: 140px;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-description .hero-hello {
+  text-align: center;
+  width: 40%;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: outfit;
+}
+
+.hero-description .hero-name {
+  width: 80%;
+  font-size: 70px;
+  font-weight: 600;
+  background: linear-gradient(270deg, #ece810 10%, #df8908 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-description .hero-text {
+  font-size: 20px;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.hero-connect {
+  padding: 12px 26px;
+  border-radius: 50px;
+  background: #df8908;
+  cursor: pointer;
+}
+
+.hero-resume {
+  padding: 12px 26px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.hero-connect:hover {
+  border: 2px solid #fff;
+}
+.hero-resume:hover {
+  border-color: #df8908;
+}
+
+@media (max-width: 768px) {
+  .hero-page {
+    flex-direction: column;
+  }
+  .img-section {
+    height: 40%;
+    width: 100%;
+  }
+  .blob {
+    width: 200px;
+    height: 220px;
+    margin-top: 80px;
+    margin-left: 280px;
+  }
+
+  .hero-description {
+    width: 100%;
+    padding-top: 80px;
+    align-items: center;
+  }
+
+  .hero-description .hero-name {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .hero-connect {
+    padding: 10px 24px;
+  }
+
+  .hero-resume {
+    padding: 10px 24px;
+  }
+}

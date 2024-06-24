@@ -1,0 +1,63 @@
+.achievements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 120px;
+}
+
+.achievements-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  gap: 30px;
+}
+
+.sub-container h2 {
+  font-size: 25px;
+}
+
+.achieves {
+  width: 450px;
+  border-top: 2px solid #df8908;
+  border-left: 2px solid #df8908;
+  border-radius: 10px;
+}
+.achievement {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.achieve-name {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.time {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .achievements-container {
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+  }
+
+  .sub-container {
+    gap: 20px;
+  }
+}

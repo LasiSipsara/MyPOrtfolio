@@ -1,0 +1,137 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 80px 120px;
+}
+
+.projects h1 {
+  padding: 0px 30px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 450px;
+  border-radius: 5px;
+  align-items: center;
+  padding-top: 10px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.project-item:hover {
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+
+.project-img img {
+  width: 300px;
+  height: 200px;
+}
+
+.project-item p {
+  height: 90px;
+  width: 90%;
+  text-align: center;
+  margin-top: 20px;
+  color: #d8d8d8;
+  font-size: 20px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  margin: 20px 20px;
+  width: 80%;
+  height: 85px;
+}
+
+.technology {
+  height: 20px;
+  padding: 5px 8px;
+  background: transparent;
+  border: 2px solid #f1c40f;
+  border-radius: 10px;
+}
+
+.project-actions {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 10px 20px;
+}
+.project-actions a {
+  text-decoration: none;
+}
+.action {
+  padding: 5px 12px;
+  background: #df8908;
+  border-radius: 10px;
+  color: #21201e;
+  font-weight: 700;
+}
+.action:hover {
+  background: transparent;
+  color: #d8d8d8;
+  border: 2px solid #f1c40f;
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+.mob-project-actions {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .project-item {
+    width: 230px;
+    height: 280px;
+  }
+
+  .project-img img {
+    width: 210px;
+    height: 150px;
+  }
+
+  .project-item p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .technologies {
+    display: none;
+  }
+
+  .project-actions {
+    display: none;
+  }
+
+  .mob-project-actions {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+
+  .mob-project-actions img {
+    width: 40px;
+    height: 40px;
+  }
+  .mob-project-actions img:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+}

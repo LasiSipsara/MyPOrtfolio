@@ -1,0 +1,41 @@
+[
+  {
+    "title": "EnchantedBlooms e-commerce website",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    "imagePath": "Projects/EnchantedBlooms.jpeg",
+    "demoLink": "",
+    "codeLink": "https://github.com/LasiSipsara/Online-Flower-shop.git"
+  },
+
+  {
+    "title": "RestApi for a e-commerce website",
+    "technologies": ["Java", "SpringBoot"],
+    "imagePath": "Projects/RestApi1.jpg",
+    "demoLink": "",
+    "codeLink": "https://github.com/LasiSipsara/Fashion-hub-shopping-site.git"
+  },
+
+  {
+    "title": "My Portfolio website",
+    "technologies": ["React JS", "CSS"],
+    "imagePath": "Projects/portfolio.jpeg",
+    "demoLink": "",
+    "codeLink": ""
+  },
+
+  {
+    "title": "Simple Calculator",
+    "technologies": ["React JS", "CSS"],
+    "imagePath": "Projects/calculator.jpeg",
+    "demoLink": "",
+    "codeLink": "https://github.com/LasiSipsara/Calculator"
+  },
+
+  {
+    "title": "Talkify - Real Time Chat Application",
+    "technologies": ["MERN", "Tailwind CSS", "Daisy UI", "Socket.io"],
+    "imagePath": "Projects/talkify.jpeg",
+    "demoLink": "https://talkify-ld29.onrender.com/",
+    "codeLink": "https://github.com/LasiSipsara/Talkify"
+  }
+]

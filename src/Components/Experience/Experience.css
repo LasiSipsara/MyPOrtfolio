@@ -1,0 +1,47 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+    margin: 80px 120px;
+}
+
+.experience h1{
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.skills-section{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+}
+.skill-item{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 110px;
+    border-radius: 5px;
+    align-items: center;
+    padding-top: 30px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.skill-item:hover{
+    transition: .3s;
+    transform: scale(1.05);
+}
+
+.skill-img img{
+    width: 55px;
+    height: 60px;
+    
+}
+
+.skill-item p{
+    margin-top: 16px;
+    color: #D8D8D8;
+    font-size: 16px; 
+}
