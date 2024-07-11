@@ -133,3 +133,31 @@
     padding: 10px 24px;
   }
 }
+
+@media (max-width: 480px) {
+  .blob {
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+
+  .hero-description {
+    padding-top: 60px;
+  }
+
+  .hero-description .hero-hello {
+    font-size: 35px;
+  }
+
+  .hero-description .hero-name {
+    font-size: 40px;
+  }
+
+  .hero-description .hero-text {
+    font-size: 18px;
+  }
+
+  .hero-connect,
+  .hero-resume {
+    font-size: 15px;
+  }
+}

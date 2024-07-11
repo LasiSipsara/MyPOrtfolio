@@ -61,3 +61,20 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 480px) {
+  .achievements-container {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .sub-container {
+    gap: 15px;
+    width: 30%;
+  }
+
+  .achieve-name {
+    font-size: 18px;
+  }
+}
